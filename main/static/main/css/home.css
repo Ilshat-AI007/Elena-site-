@@ -2318,3 +2318,30 @@
     min-height: 395px;
   }
 }
+
+.social-links {
+    margin-top: 20px;
+    text-align: center; /* Выравнивание по центру */
+}
+
+.social-links p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #333; /* Цвет иконок */
+    font-size: 24px; /* Размер иконок */
+    margin: 0 10px; /* Расстояние между иконками */
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #E1306C; /* Цвет при наведении (например, для Instagram) */
+}
+
+@media (max-width: 768px) {
+    .social-links a {
+        font-size: 20px; /* Уменьшаем размер иконок на мобильных устройствах */
+    }
+}
